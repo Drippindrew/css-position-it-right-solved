@@ -6,10 +6,10 @@
   justify-content: center;
   align-items: center;
   background-color: #e2e2e2;
-  padding: 30px;
+  padding: 40px;
   margin-top: 60px;
   width: 100%;
-  z-index:1;
+  z-index: 1;
 }
 
 .legal-header h1 {
@@ -34,7 +34,7 @@ section {
   gap: 30px;
   position: relative;
   border-bottom: 1px solid grey;
-  padding: 30px;
+  padding: 50px;
   max-width: 900px;
   margin: 0 auto;
   color: white;
@@ -42,12 +42,13 @@ section {
 
 .section-label {
   position: sticky;
-  top: 100px;
+  top: 150px;
   align-self: flex-start;
   width: 100%;
   background-color: #2b2d3b;
   height: max-content;
   padding: 10px 16px;
+  margin-top: 30px;
 }
 
 .document-content {
@@ -55,6 +56,7 @@ section {
   flex-direction: column;
   gap: 30px;
   max-width: 600px;
+  margin: auto;
 }
 
 .document-content p {
